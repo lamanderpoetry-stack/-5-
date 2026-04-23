@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-cinzel: "Cinzel", ui-serif, Georgia, serif;
+  
+  --color-natural-bg: #f2ede4;
+  --color-natural-surface: #fdfbf7;
+  --color-natural-panel: #e9e0d2;
+  --color-natural-panel-header: #dfd4c3;
+  --color-natural-border: #d3c5b3;
+  
+  --color-natural-dark: #2d241a;
+  --color-natural-dark-hover: #3d3225;
+  --color-natural-text: #3c2f21;
+  --color-natural-text-muted: #5a4631;
+  --color-natural-text-light: #a08a70;
+  
+  --color-natural-accent: #d4af37;
+  --color-natural-accent-light: #e9dcc9;
+  
+  --color-natural-red: #8b4513; 
+  --color-natural-green: #556b2f;
+}
+
+body {
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+  font-family: var(--font-cinzel);
+}
