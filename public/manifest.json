@@ -1,0 +1,17 @@
+{
+  "name": "Генератор Дикой Магии",
+  "short_name": "Всплески 5e",
+  "description": "Генератор эффектов Дикой Магии для Dungeons & Dragons 5e",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2d241a",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
